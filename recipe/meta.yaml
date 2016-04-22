@@ -1,4 +1,4 @@
-{% set version = "5.0.0" %}
+{% set version = "5.1.0" %}
 
 package:
   name: traitsui
@@ -7,7 +7,7 @@ package:
 source:
   fn: traitsui-{{ version }}.tar.bz2
   url: https://pypi.python.org/packages/source/t/traitsui/traitsui-{{ version }}.tar.bz2
-  md5: 4a388a881aa48b0ec2710fd5764ddada
+  md5: 5c24ecc93a55d7f42a5253d068cde7e8
 
 build:
   number: 0
