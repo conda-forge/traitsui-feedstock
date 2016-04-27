@@ -6,7 +6,7 @@ package:
 
 source:
   fn: traitsui-{{ version }}.tar.bz2
-  url: https://pypi.python.org/packages/55/4f/3e66c8b131ef4f1b198106f07a0bdc612d6e2a7989471994512bfad087d2/traitsui-{{ version }}.tar.bz2
+  url: https://pypi.io/packages/source/t/traitsui/traitsui-{{ version }}.tar.bz2
   md5: 5c24ecc93a55d7f42a5253d068cde7e8
 
 build:
