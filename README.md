@@ -11,6 +11,18 @@ Summary: TraitsUI - Traits-capable windowing framework
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/traitsui-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/traitsui-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/traitsui-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/traitsui-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/traitsui-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/traitsui-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/traitsui/badges/version.svg)](https://anaconda.org/conda-forge/traitsui)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/traitsui/badges/downloads.svg)](https://anaconda.org/conda-forge/traitsui)
+
 Installing traitsui
 ===================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `traitsui` available on your platf
 ```
 conda search traitsui --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/traitsui-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/traitsui-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/traitsui-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/traitsui-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/traitsui-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/traitsui-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/traitsui/badges/version.svg)](https://anaconda.org/conda-forge/traitsui)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/traitsui/badges/downloads.svg)](https://anaconda.org/conda-forge/traitsui)
 
 
 Updating traitsui-feedstock
