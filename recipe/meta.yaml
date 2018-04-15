@@ -1,4 +1,4 @@
-{% set version = "5.1.0" %}
+{% set version = "6.0.0" %}
 
 package:
   name: traitsui
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: traitsui-{{ version }}.tar.bz2
-  url: https://pypi.io/packages/source/t/traitsui/traitsui-{{ version }}.tar.bz2
-  md5: 5c24ecc93a55d7f42a5253d068cde7e8
+  url: https://pypi.io/packages/source/t/traitsui/traitsui-{{ version }}.tar.gz
+  sha256: a75f159f001b71213e17b373461d8df619cd2ae30222a3a78c5e61d4a87dfdea
 
 build:
   number: 0
@@ -17,11 +17,11 @@ requirements:
   build:
     - python
     - setuptools
-    - pyface
+    - pyface >=6
     - traits
   run:
     - python
-    - pyface
+    - pyface >=6
     - traits
 
 test:
