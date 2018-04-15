@@ -10,13 +10,14 @@ source:
   sha256: a75f159f001b71213e17b373461d8df619cd2ae30222a3a78c5e61d4a87dfdea
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
+    - pip
     - python
-    - setuptools
     - pyface >=6
     - traits
   run:
