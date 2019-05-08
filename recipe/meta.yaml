@@ -1,4 +1,4 @@
-{% set version = "6.0.0" %}
+{% set version = "6.1.0" %}
 
 package:
   name: traitsui
@@ -7,10 +7,10 @@ package:
 source:
   fn: traitsui-{{ version }}.tar.bz2
   url: https://pypi.io/packages/source/t/traitsui/traitsui-{{ version }}.tar.gz
-  sha256: a75f159f001b71213e17b373461d8df619cd2ae30222a3a78c5e61d4a87dfdea
+  sha256: e36468072c33aee0b8d031de386864f04ff5ed208c7be1427a19a64a802f1ef8
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
