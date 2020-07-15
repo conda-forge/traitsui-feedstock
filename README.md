@@ -5,7 +5,7 @@ Home: http://docs.enthought.com/traitsui/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: TraitsUI - Traits-capable windowing framework
 
