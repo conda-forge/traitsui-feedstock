@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@grlee77](https://github.com/grlee77/)
+* [@larsoner](https://github.com/larsoner/)
 
