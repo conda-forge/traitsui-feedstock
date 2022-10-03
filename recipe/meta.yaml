@@ -1,4 +1,4 @@
-{% set version = "7.4.0" %}
+{% set version = "7.4.1" %}
 
 package:
   name: traitsui
@@ -7,7 +7,7 @@ package:
 source:
   fn: traitsui-{{ version }}.tar.bz2
   url: https://pypi.io/packages/source/t/traitsui/traitsui-{{ version }}.tar.gz
-  sha256: 25335affee2342d47e35c25df5e7785d22a533584fe1be0943ccba45dc1ae589
+  sha256: 4c5b3d3aaeaabd1ec81a0a8c40f9ccd28fa8cb9d64ed13917c990d174654fa1d
 
 build:
   number: 0
