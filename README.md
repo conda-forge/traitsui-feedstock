@@ -1,11 +1,11 @@
-About traitsui
-==============
+About traitsui-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/traitsui-feedstock/blob/main/LICENSE.txt)
 
 Home: http://docs.enthought.com/traitsui/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/traitsui-feedstock/blob/main/LICENSE.txt)
 
 Summary: TraitsUI - Traits-capable windowing framework
 
