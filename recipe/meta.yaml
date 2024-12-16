@@ -6,26 +6,29 @@ package:
 
 source:
   fn: traitsui-{{ version }}.tar.bz2
-  url: https://pypi.io/packages/source/t/traitsui/traitsui-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/t/traitsui/traitsui-{{ version }}.tar.gz
   sha256: 901b9d1cbc45513e00a7397677b098441b28774b688f30a159bad4801bf40364
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - setuptools
+    - python {{ python_min }}
     - pyface >=6
     - traits
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - pyface >=6
     - traits
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - traitsui
 
